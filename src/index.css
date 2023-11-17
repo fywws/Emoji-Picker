@@ -1,0 +1,39 @@
+:root {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-top: 300px;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+input{
+  margin-top: 50px;
+
+  outline: none;
+  height: 30px;
+  padding-top: 4px;
+}
+
+button {
+  margin-top: 10px;
+}
