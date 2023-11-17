@@ -7,8 +7,8 @@ function App() {
   
   const [emoji, setemoji] = useState("")
   const [a, seta] = useState([""])
-  const url = 'https://emoji-api.com/emojis?search=' + emoji + '&access_key=b01804d99722d36c1ad37b6a06b0e17a048f38aa';
-  const url2 = 'https://emoji-api.com/emojis?access_key=b01804d99722d36c1ad37b6a06b0e17a048f38aa';
+  const url = 'https://emoji-api.com/emojis?search=' + emoji + '&access_key=YOUR API';
+  const url2 = 'https://emoji-api.com/emojis?access_key=YOUR API';
   
   function getRandomNumber(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min + 1)) + min;
